@@ -1,5 +1,5 @@
-export const BASE_PATH = import.meta.env.VITE_API_URL || "https://api.ree6.de"
-export const INVITE_URL = import.meta.env.VITE_INVITE_URL || "https://invite.ree6.de"
+export const BASE_PATH = import.meta.env.VITE_API_URL || "https://backend.errorhunter.de"
+export const INVITE_URL = import.meta.env.VITE_INVITE_URL || "https://discord.com/api/oauth2/authorize?client_id=1202570536211972116&permissions=8&scope=bot"
 
 export function get(path: string) {
 
